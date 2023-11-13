@@ -58,7 +58,7 @@ a {
     
 }
 a:last-child {
-    border-right:;
+    border-right:none;
   }
 
 a:hover {
