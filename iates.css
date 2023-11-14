@@ -9,27 +9,31 @@ body{
     
     
 }
-.largura1{
-    margin-left: 40px;
-    margin-top: -30px;
-}
+
 #luxo{
     color:#1BB4E8;
     font-style: Italic;
     width: 60px;
-    position: relative;
     left:105px;
     bottom: 90px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
+    position: relative;
 }
 #topo{
+    position: relative;
     background-color: #21272B;
     height: 130px;
     width: 1220px;
     margin: 0 10 0 10auto;
     padding: 0;
+}
+#barcologo{
+    width: 55px;
+    margin-left: 30px;
+    margin-top: 30px;
+
 }
 #aluguel{
     color: #FFFFFF;
@@ -37,44 +41,43 @@ body{
     left:100px;
     bottom: 110px;
     font-size: 30px;
-    position: relative;
     width: 250px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
-
-}
-
-a {
-    text-decoration: none;
-    color: #FFFFFF;
     position: relative;
-    bottom: 165px;
-    left: 350px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    margin-right: 10px;
-    padding-right: 15px;
-    border-right: solid #FFFFFF 1px ;
-    
-}
-a:last-child {
-    border-right:none;
-  }
-
-a:hover {
-    color: #1BB4E8;
 }
 
-ul {
+#menu {
+    width: 650px;
     list-style: none;
-    width: 1000px;
-}
-
-li {
+    position: relative;
+    top: -160px;
+    left: 380px;
+  }
+  
+  #menu li {
     display: inline-block;
-    color: #FFFFFF;
-}
-
+    border-right: 1px solid white;
+  }
+  
+  #menu li:last-child {
+    border: 0px;
+  }
+  
+  #menu li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+  }
+  
+  #menu li a:hover{
+    color: #1bb4e8;
+  }
 #fundo_trasparente{
     background-color: #21272B;
     color: #FFFFFF;
@@ -91,9 +94,14 @@ li {
 #textomeio2{position: relative; width: 370px; left: 73px; bottom: 35px;line-height: 37px; font-family: Arial, Helvetica, sans-serif; font-style: italic; font-size: 20px; font-weight: 100;}
 #barcologo2{position: relative;width: 35px; top: 50px; left: 30px;}
 n{color: #C6B07F; font-size: 25px;}
+#destinoscaixa{
+    margin-left: 40px;
+    margin-top: -30px;
+    margin-right: 40px;
+}
 #destinos{
     background-color:#1BB4E8;
-    width: 560px;
+    width: 540px;
     color: #FFFFFF;
     height: 50px;
     
@@ -114,6 +122,19 @@ n{color: #C6B07F; font-size: 25px;}
     left: 55px;
     
 }
+#destinostexto2{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+#destinostexto2_1{
+    width: 500px;
+    text-align: justify;
+    
+}
+#imagemdestinos{
+    width: 540px;
+}
 #frota{
     background-color: #C6B07F;
     width: 560px;
@@ -125,21 +146,27 @@ n{color: #C6B07F; font-size: 25px;}
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     position: relative;
-    bottom: 63px;
+    bottom: 60px;
     font-size: 27px;
     left: 55px;
 }
-#nossafrota{width: 580px
-            }
-#texto2{width: 580px;}
-#imagensfrota{width: 580px;}
-
-#barcologo{
-    width: 55px;
-    margin-left: 30px;
-    margin-top: 30px;
+#nossafrota{width: 560px;
+            margin-top: -30px;
+            position: relative;;}
+#logofrotas{width: 45px;
+            margin-top: 4px;
+}
+#frotastexto2{font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            align-items: center;}
+#frotastexto2_1{width: 500px;
+                text-align: justify;
 
 }
+.imagensfrota{width: 260px;
+              ;}
+
+
 #lista{
     left:380px;
     bottom: 160px;
@@ -147,9 +174,10 @@ n{color: #C6B07F; font-size: 25px;}
 
 }
 #paginaprincipal{
-    margin: 0 70px 200px 70px;
+    margin:0 auto ;
     background-color: #FFFFFF;
     width: 1220px;
+    height: 1320px;
 }
 #barcoprincipal{width: 1220px; margin-bottom: 0;}
 .fonte{
@@ -157,5 +185,17 @@ font-style: italic;
 }
 #boxflex{display: flex;
         margin-top: -240px;
-        background-color: #FFFFFF;}
+        background-color: #FFFFFF;
+        ;}
+#rodape{margin: 0 auto;
+        background-color: rgb(170, 166, 166);
+        width: 1220px;
+        height: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+        
         
