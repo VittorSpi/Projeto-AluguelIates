@@ -11,6 +11,7 @@ body{
     background-color: #FFFFFF;
     width: 1220px;
     height: 1320px;
+    padding-bottom: 20px;
 }
 #topo{
     position: relative;
@@ -79,3 +80,62 @@ body{
   #menu li a:hover{
     color: #1bb4e8;
   }
+.caixa{background-color: #0b525f;
+  border-radius: 10px;
+ margin-left: 20px;
+ margin-right: 20px ;
+ height: 400px;
+ position: relative;
+ margin-bottom: 80px;
+}
+#titulo{background-color: #1BB4E8;
+  width: 215px;
+  font-size: 25px;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  border-radius: 5px;
+  padding: 0;}
+.iate{width: 380px;
+      margin-left: 60px;
+      margin-top: 65px;}
+#botao1{margin-left: 300px;
+        position: relative;
+        bottom: 100px;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: rgb(189, 190, 194);
+        color: #000000;
+      }
+#botao2{margin-left: 300px;
+        position: relative;
+        bottom: 100px;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: rgb(189, 190, 194);
+        color: #000000;
+      }
+#botao3{margin-left: 300px;
+        position: relative;
+        bottom: 100px;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: rgb(189, 190, 194);
+        color: #000000;
+      }
+#botao4{margin-left: 300px;
+        position: relative;
+        bottom: 100px;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 30px;
+        background-color: rgb(189, 190, 194);
+        color: #000000;
+      }
